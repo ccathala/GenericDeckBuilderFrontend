@@ -12,10 +12,7 @@ export const API_CONFIG = {
   // - Dev (npm run dev) : localhost:8080
   // - Prod locale (npm run preview:prod) : localhost:8080
   // - Prod déployée : même origine que le frontend
-  baseUrl:
-    isDevelopment || isLocalHost
-      ? "http://localhost:8080"
-      : window.location.origin,
+  baseUrl:import.meta.env.API_CONFIG,
   apiPath: "/api",
   imagesPath: "/images",
 };
