@@ -1,18 +1,8 @@
 /**
  * Configuration API universelle - fonctionne automatiquement en dev ET prod
  */
-
-const isDevelopment = import.meta.env.DEV;
-const isLocalHost =
-  window.location.hostname === "localhost" ||
-  window.location.hostname === "127.0.0.1";
-
 export const API_CONFIG = {
-  // Configuration intelligente de l'API :
-  // - Dev (npm run dev) : localhost:8080
-  // - Prod locale (npm run preview:prod) : localhost:8080
-  // - Prod déployée : même origine que le frontend
-  baseUrl:import.meta.env.API_CONFIG,
+  baseUrl:import.meta.env.VITE_API_BASE_URL,
   apiPath: "/api",
   imagesPath: "/images",
 };
