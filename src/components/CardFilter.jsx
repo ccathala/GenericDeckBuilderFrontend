@@ -31,50 +31,32 @@ const CardFilter = ({
     {
       key: "Végétal",
       cssClass: "vegetal",
-      icon:
-        process.env.NODE_ENV === "production"
-          ? "/vegetal_icon.png"
-          : "/src/assets/vegetal_icon.png",
+      icon: "/src/assets/vegetal_icon.png",
     },
     {
       key: "Feu",
       cssClass: "feu",
-      icon:
-        process.env.NODE_ENV === "production"
-          ? "/fire_icon.png"
-          : "/src/assets/fire_icon.png",
+      icon: "/src/assets/fire_icon.png",
     },
     {
       key: "Air",
       cssClass: "air",
-      icon:
-        process.env.NODE_ENV === "production"
-          ? "/air_icon.png"
-          : "/src/assets/air_icon.png",
+      icon: "/src/assets/air_icon.png",
     },
     {
       key: "Eau",
       cssClass: "eau",
-      icon:
-        process.env.NODE_ENV === "production"
-          ? "/water_icon.png"
-          : "/src/assets/water_icon.png",
+      icon: "/src/assets/water_icon.png",
     },
     {
       key: "Minéral",
       cssClass: "mineral",
-      icon:
-        process.env.NODE_ENV === "production"
-          ? "/mineral_icon.png"
-          : "/src/assets/mineral_icon.png",
+      icon: "/src/assets/mineral_icon.png",
     },
     {
       key: "Arcane",
       cssClass: "arcane",
-      icon:
-        process.env.NODE_ENV === "production"
-          ? "/arcane_icon.png"
-          : "/src/assets/arcane_icon.png",
+      icon: "/src/assets/arcane_icon.png",
     },
   ];
 
