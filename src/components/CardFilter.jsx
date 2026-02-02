@@ -31,32 +31,32 @@ const CardFilter = ({
     {
       key: "Végétal",
       cssClass: "vegetal",
-      icon: "/public/icons/vegetal_icon.png",
+      icon: "/icons/vegetal_icon.png",
     },
     {
       key: "Feu",
       cssClass: "feu",
-      icon: "/public/icons/fire_icon.png",
+      icon: "/icons/fire_icon.png",
     },
     {
       key: "Air",
       cssClass: "air",
-      icon: "/public/icons/air_icon.png",
+      icon: "/icons/air_icon.png",
     },
     {
       key: "Eau",
       cssClass: "eau",
-      icon: "/public/icons/water_icon.png",
+      icon: "/icons/water_icon.png",
     },
     {
       key: "Minéral",
       cssClass: "mineral",
-      icon: "/public/icons/mineral_icon.png",
+      icon: "/icons/mineral_icon.png",
     },
     {
       key: "Arcane",
       cssClass: "arcane",
-      icon: "/public/icons/arcane_icon.png",
+      icon: "/icons/arcane_icon.png",
     },
   ];
 
